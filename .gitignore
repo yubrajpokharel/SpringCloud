@@ -1,0 +1,35 @@
+
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+
+
+limit-service/.idea/
+limit-service/*.iml
+limit-service/*.iws
+limit-service/target/
+limit-service/.mvn/
+limit-service/mvnw
+limit-service/mvnw.cmd
+
+
+spring-cloud-config-server/.idea/
+spring-cloud-config-server/*.iml
+spring-cloud-config-server/*.iws
+spring-cloud-config-server/target/
+spring-cloud-config-server/.mvn/
+spring-cloud-config-server/mvnw
+spring-cloud-config-server/mvnw.cmd
