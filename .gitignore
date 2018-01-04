@@ -42,3 +42,12 @@ currency-exchange-service/target/
 currency-exchange-service/.mvn/
 currency-exchange-service/mvnw
 currency-exchange-service/mvnw.cmd
+
+
+currency-conversion-service/.idea/
+currency-conversion-service/*.iml
+currency-conversion-service/*.iws
+currency-conversion-service/target/
+currency-conversion-service/.mvn/
+currency-conversion-service/mvnw
+currency-conversion-service/mvnw.cmd
