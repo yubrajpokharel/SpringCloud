@@ -33,3 +33,12 @@ spring-cloud-config-server/target/
 spring-cloud-config-server/.mvn/
 spring-cloud-config-server/mvnw
 spring-cloud-config-server/mvnw.cmd
+
+
+currency-exchange-service/.idea/
+currency-exchange-service/*.iml
+currency-exchange-service/*.iws
+currency-exchange-service/target/
+currency-exchange-service/.mvn/
+currency-exchange-service/mvnw
+currency-exchange-service/mvnw.cmd
