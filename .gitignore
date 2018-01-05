@@ -51,3 +51,13 @@ currency-conversion-service/target/
 currency-conversion-service/.mvn/
 currency-conversion-service/mvnw
 currency-conversion-service/mvnw.cmd
+
+
+netflix-eureka-naming-server/.idea/
+netflix-eureka-naming-server/*.iml
+netflix-eureka-naming-server/*.iws
+netflix-eureka-naming-server/target/
+netflix-eureka-naming-server/.mvn/
+netflix-eureka-naming-server/mvnw
+netflix-eureka-naming-server/mvnw.cmd
+
