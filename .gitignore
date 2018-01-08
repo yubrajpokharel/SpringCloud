@@ -61,3 +61,14 @@ netflix-eureka-naming-server/.mvn/
 netflix-eureka-naming-server/mvnw
 netflix-eureka-naming-server/mvnw.cmd
 
+
+netflix-zuul-api-gateway-server/.idea/
+netflix-zuul-api-gateway-server/*.iml
+netflix-zuul-api-gateway-server/*.iws
+netflix-zuul-api-gateway-server/target/
+netflix-zuul-api-gateway-server/.mvn/
+netflix-zuul-api-gateway-server/mvnw
+netflix-zuul-api-gateway-server/mvnw.cmd
+
+
+
