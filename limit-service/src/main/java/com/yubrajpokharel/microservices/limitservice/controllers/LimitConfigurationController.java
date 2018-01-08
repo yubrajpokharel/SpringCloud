@@ -1,5 +1,6 @@
 package com.yubrajpokharel.microservices.limitservice.controllers;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.yubrajpokharel.microservices.limitservice.configuration.Configuration;
 import com.yubrajpokharel.microservices.limitservice.configuration.LimitConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,5 +20,15 @@ public class LimitConfigurationController {
     @GetMapping("/limits")
     public LimitConfiguration retriveLimitsFromConfiguration(){
         return new LimitConfiguration(configuration.getMaximum(), configuration.getMinimum());
+    }
+
+    @GetMapping("/fault-tolerance")
+    @HystrixCommand(fallbackMethod="fallbackRetrieveConfiguration")
+    public LimitConfiguration retrieveConfiguration() {
+        throw new RuntimeException("Not available");
+    }
+
+    public LimitConfiguration fallbackRetrieveConfiguration() {
+        return new LimitConfiguration(999, 9);
     }
 }
