@@ -71,4 +71,13 @@ netflix-zuul-api-gateway-server/mvnw
 netflix-zuul-api-gateway-server/mvnw.cmd
 
 
+zipkin-distributed-tracing-server/.idea/
+zipkin-distributed-tracing-server/*.iml
+zipkin-distributed-tracing-server/*.iws
+zipkin-distributed-tracing-server/target/
+zipkin-distributed-tracing-server/.mvn/
+zipkin-distributed-tracing-server/mvnw
+zipkin-distributed-tracing-server/mvnw.cmd
+
+
 
